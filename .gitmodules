@@ -1,0 +1,14 @@
+[submodule "vim-addon-local-vimrc"]
+	path = bundle/vim-addon-local-vimrc
+	url = https://github.com/MarcWeber/vim-addon-local-vimrc.git
+
+[submodule "vim-jade"]
+	path = bundle/vim-jade
+	url = https://github.com/thynson/vim-jade.git
+
+[submodule "vim-less"]
+	path = bundle/vim-less
+	url = https://github.com/groenewege/vim-less.git
+[submodule "bundle/vim-pathogen"]
+	path = bundle/vim-pathogen
+	url = https://github.com/tpope/vim-pathogen.git
