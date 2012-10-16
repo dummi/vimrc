@@ -1,6 +1,6 @@
 # vimrc
 
-Execute the following command to make your setup your vim.
+Execute the following commands to setup your vim.
 ```bash
 cd ~/.vim
 git init
