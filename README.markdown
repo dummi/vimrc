@@ -4,7 +4,7 @@ Execute the following commands to setup your vim.
 ```bash
 cd ~/.vim
 git init
-git remove add origin https://github.com/thynson/vimrc.git
+git remote add origin https://github.com/thynson/vimrc.git
 git pull origin master
 git submodule init
 git submodule update
