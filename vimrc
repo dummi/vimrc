@@ -1,6 +1,7 @@
 
 " Load pathogen first
-runtime bundle/vim-pathogen/autoload/athogen.vim
+runtime bundle/vim-pathogen/autoload/pathogen.vim
+call pathogen#infect()
 
 set nocompatible "Not compatitable mode
 set tabstop=4 "Set tab 4 space
@@ -88,7 +89,6 @@ au FileType html setlocal sw=2
 au FileType cpp set syntax=cpp11
 
 au FileType c nmap K :!man -S 2,3,5,7 <cword><CR>
-au FileType cpp set syntax=cpp11
 
 let g:local_vimrc = {'names' : ['.vimrc'], 'hash_fun' : 'LVRHashOfFile'}
 
