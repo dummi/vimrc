@@ -15,3 +15,6 @@
 [submodule "bundle/cpp11"]
 	path = bundle/cpp11
 	url = https://github.com/proyvind/Cpp11-Syntax-Support
+[submodule "bundle/xml"]
+	path = bundle/xml
+	url = https://github.com/othree/xml.vim
