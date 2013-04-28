@@ -18,3 +18,6 @@
 [submodule "bundle/xml"]
 	path = bundle/xml
 	url = https://github.com/othree/xml.vim
+[submodule "bundle/vim-javascript"]
+	path = bundle/vim-javascript
+	url = https://github.com/pangloss/vim-javascript
