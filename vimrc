@@ -54,8 +54,6 @@ map <C-l> <C-w>l
 au InsertEnter * set nohlsearch
 au InsertLeave * set hlsearch
 
-source ~/.vim/imap/license.vim
-
 " Auto strip useless space when file is saved
 au BufWritePre * :call <SID>StripTrailingWhitespace()
 
