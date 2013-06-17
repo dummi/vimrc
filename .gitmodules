@@ -24,3 +24,15 @@
 [submodule "bundle/auto-pairs"]
 	path = bundle/auto-pairs
 	url = https://github.com/jiangmiao/auto-pairs
+[submodule "bundle/vim-taglist"]
+	path = bundle/vim-taglist
+	url = https://github.com/vim-scripts/taglist.vim
+[submodule "bundle/jshint"]
+	path = bundle/jshint
+	url = https://github.com/walm/jshint.vim
+[submodule "bundle/vim-nodejs-complete"]
+	path = bundle/vim-nodejs-complete
+	url = https://github.com/myhere/vim-nodejs-complete
+[submodule "bundle/clang_complete"]
+	path = bundle/clang_complete
+	url = https://github.com/Rip-Rip/clang_complete
