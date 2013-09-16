@@ -55,8 +55,6 @@ inoremap <C-J> <CR><C-O>:-1<CR><C-O>$
 " Clear search hightlight when enter edit mode
 au InsertEnter * let @/ = ""
 
-source ~/.vim/imap/license.vim
-
 " Auto strip useless space when file is saved
 au BufWritePre * :call <SID>StripTrailingWhitespace()
 
