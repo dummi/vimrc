@@ -14,7 +14,7 @@
 	url = https://github.com/tpope/vim-pathogen.git
 [submodule "bundle/cpp11"]
 	path = bundle/cpp11
-	url = https://github.com/proyvind/Cpp11-Syntax-Support
+	url = https://github.com/thynson/Cpp11-Syntax-Support
 [submodule "bundle/xml"]
 	path = bundle/xml
 	url = https://github.com/othree/xml.vim
@@ -24,3 +24,21 @@
 [submodule "bundle/auto-pairs"]
 	path = bundle/auto-pairs
 	url = https://github.com/jiangmiao/auto-pairs
+[submodule "bundle/vim-taglist"]
+	path = bundle/vim-taglist
+	url = https://github.com/vim-scripts/taglist.vim
+[submodule "bundle/jshint"]
+	path = bundle/jshint
+	url = https://github.com/walm/jshint.vim
+[submodule "bundle/vim-nodejs-complete"]
+	path = bundle/vim-nodejs-complete
+	url = https://github.com/myhere/vim-nodejs-complete
+[submodule "bundle/clang_complete"]
+	path = bundle/clang_complete
+	url = https://github.com/Rip-Rip/clang_complete
+[submodule "bundle/tabular"]
+	path = bundle/tabular
+	url = https://github.com/godlygeek/tabular
+[submodule "bundle/vim-multiple-cursors"]
+	path = bundle/vim-multiple-cursors
+	url = https://github.com/terryma/vim-multiple-cursors

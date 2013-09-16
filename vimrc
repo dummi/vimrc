@@ -44,15 +44,16 @@ map <F7> :cp<CR>
 map <F8> :cn<CR>
 
 " Jump to window
-map <C-j> <C-w>j
-map <C-h> <C-w>h
-map <C-k> <C-w>k
-map <C-l> <C-w>l
+nmap <C-j> <C-w>j
+nmap <C-h> <C-w>h
+nmap <C-k> <C-w>k
+nmap <C-l> <C-w>l
 
+" Move text after the cursor to next line
+inoremap <C-J> <CR><C-O>:-1<CR><C-O>$
 
-" Clear search hightlight when press <ESC> in normal mode
-au InsertEnter * set nohlsearch
-au InsertLeave * set hlsearch
+" Clear search hightlight when enter edit mode
+au InsertEnter * let @/ = ""
 
 " Auto strip useless space when file is saved
 au BufWritePre * :call <SID>StripTrailingWhitespace()
