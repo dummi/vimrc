@@ -16,7 +16,7 @@ set nowrap
 set ruler "Show cursor position
 set noswapfile "No swap file
 set history=300 "Remember latest 300 command
-set cinoptions=:0,g0,l0 "C-indent options
+set cinoptions=:0,g0,l0,is "C-indent options
 set autoread "Auto reload when file is modified by external program
 set foldmethod=manual "Manually folding
 set textwidth=78 "Auto line-break at 78
@@ -33,11 +33,11 @@ set tags+=~/.vim/tags
 map <F5> :wall<CR>:make<CR>
 
 " Make tags
-map <F6> :!ctags -R --fields=+iaS --extra=+q --append . <CR>
+map <F6> :!ctags -R --c++kinds=+p --fields=+iaS --extra=+q --append . <CR>
 
 map <C-F6> :!(cd ~/.vim/; ctags -r --filelds=+ias --extra=+q --append /usr/include ) <CR>
 
-" Prev error after makE
+" Prev error after make
 map <F7> :cp<CR>
 
 " Next error after make
