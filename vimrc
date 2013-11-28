@@ -90,4 +90,5 @@ au FileType cpp set syntax=cpp11
 au FileType c nmap K :!man -S 2,3,5,7 <cword><CR>
 
 let g:local_vimrc = {'names' : ['.vimrc'], 'hash_fun' : 'LVRHashOfFile'}
+let g:clang_use_library = 1
 
