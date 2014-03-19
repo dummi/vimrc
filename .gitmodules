@@ -42,7 +42,6 @@
 [submodule "bundle/YouCompleteMe"]
 	path = bundle/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe
-
 [submodule "bundle/ragel"]
 	path = bundle/ragel
 	url = https://github.com/jayferd/ragel.vim
